@@ -1,6 +1,6 @@
 {
   "name": "codeigniter-snippets",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "Snippets for codeigniter",
   "engines": {
     "atom": "*"
