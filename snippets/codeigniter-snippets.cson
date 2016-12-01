@@ -1,0 +1,47 @@
+'scopeName': 'source.php'
+'name': 'codeigniter-snippets'
+'.source.php':
+  'CI-Controller':
+    'prefix': 'cico'
+    'body':'defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');\n'+
+          'class ${1:controllerName} extends CI_Controller\n'+
+          '{\n'+
+          '  function __construct()\n'+
+          '  {\n'+
+          '    parent::__construct();\n'+
+          '  }\n\n// ------------------------------------------------------------------------\n\n'+
+          '  public function ${2:functionName}( ${3:$params=""} )  {\n    ${4:# code...}\n  }\n\n'+
+          '// ------------------------------------------------------------------------\n\n}/*--- END CONTROLLER ---*/'
+
+  'CI-MODEL':
+    'prefix': 'cimo'
+    'body':'defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');\n'+
+          'class ${1:modelName} extends CI_Model\n'+
+          '{\n'+
+          '  function __construct()\n'+
+          '  {\n'+
+          '    parent::__construct();\n'+
+          '  }\n\n'+
+          '  public function ${2:functionName}( ${3:$params=""} )  {\n    ${4:# code...}\n  }\n\n'+
+          '// ------------------------------------------------------------------------\n\n}/*--- END MODEL ---*/'
+
+  'CI-FUNCTION':
+    'prefix': 'cifu'
+    'body':'\n  public function ${2:functionName}( ${3:$params=""} )  {\n    ${4:# code...}\n  }\n\n'+
+          '// ------------------------------------------------------------------------'
+
+  'IF':
+    'prefix': 'if'
+    'body':'if ( ${1:$c} ) :\n    ${2:    }\n${3:else:\n    ${4:    }\n}endif;'
+
+  'POST':
+    'prefix': 'post'
+    'body':'$this->input->post(${1:$param})'
+
+  'GET':
+    'prefix': 'get'
+    'body':'$this->input->get(${1:$param})'
+
+  'LOAD MODEL':
+    'prefix': 'lmodel'
+    'body':'$this->load->model(\'${1:nameModel}\');'
