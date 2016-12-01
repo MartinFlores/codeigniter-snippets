@@ -5,7 +5,7 @@ Snippets of codeigniter and php for _ATOM_ to increase your speed of programming
 
 ## Commands
 
-Command | Result 
+Commands | Result 
 ------- | ------ 
 cico  | Controller CI 
 cimo  | Model CI 
