@@ -1,16 +1,13 @@
 {
   "name": "codeigniter-snippets",
   "description": "Snippets for codeigniter",
-  "version": "0.1.0",
+  "version": "1.10.0",
   "engines": {
     "atom": "*"
   },
   "homepage": "https://github.com/MartinFlores/codeigniter-snippets#readme",
   "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MartinFlores/codeigniter-snippets.git"
-  },
+  "repository": "https://github.com/MartinFlores/codeigniter-snippets.git",
   "bugs": {
     "url": "https://github.com/MartinFlores/codeigniter-snippets/issues"
   },
