@@ -30,9 +30,13 @@
     'body':'\n  public function ${2:functionName}( ${3:$params=""} )  {\n    ${4:# code...}\n  }\n\n'+
           '// ------------------------------------------------------------------------'
 
-  'IF':
+  'IF-ELEGANT':
     'prefix': 'if'
     'body':'if ( ${1:$c} ) :\n    ${2:    }\n${3:else:\n    ${4:    }\n}endif;'
+
+  'FOREACH-ELEGANT':
+    'prefix': 'fe'
+    'body':'foreach (${1:$var} as ${2:$key}${3: => ${4:$val}}):\n    ${5:#code...}\nendforeach;'
 
   'POST':
     'prefix': 'post'
@@ -49,3 +53,7 @@
   'LOAD VIEW':
     'prefix': 'lview'
     'body':'$this->load->view(\'${1:nameView}\');'
+
+  'THIS':
+    'prefix': 'this'
+    'body':'$this->${1:  };'

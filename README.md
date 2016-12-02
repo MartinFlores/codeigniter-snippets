@@ -12,6 +12,7 @@ cimo  | Model CI
 lmodel  | Load Model
 lview  | Load View
 if  | if elegant
+fe | foreach elegant
 post  | $this->....post();
 get  | $this->....get();
 
