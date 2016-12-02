@@ -45,3 +45,7 @@
   'LOAD MODEL':
     'prefix': 'lmodel'
     'body':'$this->load->model(\'${1:nameModel}\');'
+
+  'LOAD VIEW':
+    'prefix': 'lview'
+    'body':'$this->load->view(\'${1:nameView}\');'

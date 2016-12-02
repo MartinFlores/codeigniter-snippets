@@ -5,13 +5,14 @@ Snippets of codeigniter and php for _ATOM_ to increase your speed of programming
 
 ## Commands
 
-Commands | Result 
-------- | ------ 
-cico  | Controller CI 
-cimo  | Model CI 
-lmodel  | Load Model 
-if  | if elegant 
-post  | $this->....post(); 
-get  | $this->....get(); 
+Commands | Result
+------- | ------
+cico  | Controller CI
+cimo  | Model CI
+lmodel  | Load Model
+lview  | Load View
+if  | if elegant
+post  | $this->....post();
+get  | $this->....get();
 
 more snippets soon...
