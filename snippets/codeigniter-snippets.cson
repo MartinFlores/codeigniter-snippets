@@ -57,3 +57,7 @@
   'THIS':
     'prefix': 'this'
     'body':'$this->${1:  };'
+
+  '$VAR':
+    'prefix': '$'
+    'body':'$${1:varName} = ${2:\'\'};'
